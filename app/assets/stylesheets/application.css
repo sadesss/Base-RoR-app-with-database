@@ -1,0 +1,29 @@
+html {
+    background: url(https://kartinki.pics/pics/uploads/posts/2022-08/1659988299_2-kartinkin-net-p-oboi-na-rabochii-stol-kot-krasivo-2.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+body {
+    background-color: unset;
+    color: rgb(59, 0, 0);
+    font-family: var;
+}
+
+.words {
+    color: black;
+}
+
+.table {
+    background: white;
+}
+
+.form {
+    background: rgb(255, 234, 234);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 0 30px 10px;
+}

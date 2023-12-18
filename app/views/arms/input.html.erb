@@ -1,0 +1,9 @@
+<div class = "form">
+    <div class = "mb-2 words">Input n</div>
+    <%= form_tag("/arms/output", :method => "get") do %>
+        <div class="mb-2 words">Number :</div>
+        <%=number_field_tag(:val, "Input n from 1 to 10", class: "form-control mb-2", min:"1", max:"10", pattern:
+"^[1-9][0]?$|^100$", placeholder: "Input n from 1 to 10", required: "required")%>
+        <%= submit_tag "Go!", class: "btn btn-light" %>
+    <% end %>
+</div>

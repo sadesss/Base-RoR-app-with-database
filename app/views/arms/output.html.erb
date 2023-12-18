@@ -1,0 +1,21 @@
+<div class="form">
+  <div class="words mb-2">Result:</div>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Числа</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @armstrong_numbers.each do |value| %>
+        <tr>
+          <td><%= value %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <div class="words mt-2">
+    <p>Количество: <%= @armstrong_numbers.length %></p>
+  </div>
+  <%= link_to "Try again", arms_input_path, class: "btn btn-primary" %>
+</div>
